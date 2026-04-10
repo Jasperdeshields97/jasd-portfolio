@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Principles from "./components/Principles";
+import TechnicalDepth from "./components/TechnicalDepth";
 import Timeline from "./components/Timeline";
 import WorkWithMe from "./components/WorkWithMe";
 import Footer from "./components/Footer";
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero about={about} projects={projects} />
       <Projects projects={projects} />
       <Principles principles={principles} />
+      <TechnicalDepth />
       <Timeline entries={timeline} />
       <WorkWithMe about={about} />
       <Footer about={about} />

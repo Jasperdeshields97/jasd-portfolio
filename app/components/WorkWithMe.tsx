@@ -9,9 +9,9 @@ interface WorkWithMeProps {
 const PATHS = [
   {
     title: "Hire me",
-    subtitle: "Product Lead / Head of Product",
+    subtitle: "APM / PM / Product Lead",
     description:
-      "I'm open to senior product roles where I can operate with real autonomy. I think in business outcomes, not feature lists. If you need someone who can own a product area end-to-end — discovery through delivery — let's talk.",
+      "I'm open to product roles where I can operate with real autonomy and build alongside the eng team. I think in systems and outcomes, not feature lists. If you need someone who can own a product area end-to-end — discovery through delivery — let's talk.",
     cta: "Get in touch",
     href: "mailto:jasper@jasd.com",
     style: "primary",

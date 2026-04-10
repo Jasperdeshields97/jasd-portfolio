@@ -1,0 +1,22 @@
+[
+  {
+    "number": "01",
+    "title": "Research → conviction → spec → build.",
+    "description": "I never start with code. I start with the problem, validate the insight, write a full spec, then execute with conviction. The spec isn't a formality — it's how I compress months of wrong turns into hours of right ones."
+  },
+  {
+    "number": "02",
+    "title": "Build yourself out of it.",
+    "description": "Every system I design, I design my own removal into. Autonomous infrastructure isn't a nice-to-have — it's the exit condition. If it still needs me to run, it's not done."
+  },
+  {
+    "number": "03",
+    "title": "Ship in days, not sprints.",
+    "description": "North went from `npx create-expo-app` to App Store submission in 7 days. AI systems handle the scaffolding. I handle the judgment. Speed is a design choice."
+  },
+  {
+    "number": "04",
+    "title": "Products that people actually pay for.",
+    "description": "I think in users, not features. Every product decision runs through a filter: does this get someone to pay, stay, or refer? If not, it doesn't ship."
+  }
+]

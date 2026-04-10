@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-04-09",
+    "title": "North submitted to App Store",
+    "description": "Build #8. 7 days from init to submission. Privacy-first dopamine detox app.",
+    "project": "north",
+    "type": "milestone"
+  },
+  {
+    "date": "2026-04-01",
+    "title": "North — full iOS app shipped",
+    "description": "12-screen onboarding, streak tracking, urge logging, mood check-ins, paywall. Complete.",
+    "project": "north",
+    "type": "ship"
+  },
+  {
+    "date": "2026-03-26",
+    "title": "AgentAI Tools — autonomous social stack live",
+    "description": "Twitter + Reddit posting running via Playwright on cron schedule. $0/month in API costs.",
+    "project": "agent-ai-tools",
+    "type": "ship"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "Agent infrastructure built",
+    "description": "Life OS agent system live. n8n workflows, Telegram bot, morning brief automation running.",
+    "project": "infrastructure",
+    "type": "ship"
+  },
+  {
+    "date": "2026-03-15",
+    "title": "AgentAI Tools — 33-page site live",
+    "description": "Static site on Vercel. Gumroad product page. Affiliate revenue wired.",
+    "project": "agent-ai-tools",
+    "type": "ship"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Apex — demo documentation complete",
+    "description": "Full product spec, architecture, and investor pitch docs. Ready for internal Earnest demo.",
+    "project": "apex",
+    "type": "milestone"
+  },
+  {
+    "date": "2025-12-01",
+    "title": "Trainwithjasd — shipped to App Store",
+    "description": "Personal training iOS app. First App Store submission. Approved.",
+    "project": "trainwithjasd",
+    "type": "ship"
+  }
+]

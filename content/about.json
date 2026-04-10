@@ -2,12 +2,12 @@
   "name": "Jasper de Shields",
   "handle": "jasd",
   "tagline": "I build products from zero to revenue.",
-  "bio": "I'm a product engineer who operates at the intersection of deep product thinking and full-stack execution. I don't just spec features — I ship them. Most product people can't build. Most engineers can't think in users. I do both, and I use AI systems to do it at a pace most teams can't match.\n\nI run 5 parallel projects at any given time, each at a different stage. Right now that means a dopamine detox app in the App Store, a live AI tools business with automated marketing, and an AI call intelligence platform being demoed to investors. I'm also the one building the infrastructure that runs all of it autonomously.\n\nI don't build for the process. I build for the outcome — financial independence through products that compound after I stop touching them. Every system I design, I design myself out of.",
-  "currentFocus": "Getting North live on the App Store and building the agent infrastructure that runs everything autonomously.",
+  "bio": "I own product end-to-end — from identifying problems worth solving to shipping and measuring what changes because of it. I don't get handed a strategy and execute it. I define the strategy, set the North Star metric, and make the problem disappear.\n\nMost PMs can't build. Most engineers can't think in users. I do both — and I use AI systems to do it at a pace most teams can't match. Five concurrent projects, each at a different stage: one in App Store review, one live with automated marketing, one in demo phase for an internal pitch. The infrastructure running all of it operates without me in the loop.\n\nI think in leading and lagging indicators, not just features shipped. I run structured discovery using JTBD framing before I write a line of spec. I instrument the funnel before launch, not after. And I've shipped products from conception to launch in 7 days — not by cutting corners, but by making every decision count.\n\nThe goal isn't a bigger role. It's financial independence through products that compound after I stop touching them. Every system I design, I design myself out of.",
+  "currentFocus": "North in App Store review. Building the agent infrastructure that runs the passive income stack autonomously.",
   "location": "San Francisco, CA",
   "openTo": ["APM", "PM", "Product Lead", "Co-founder", "Product Consultant"],
   "social": {
-    "github": "https://github.com/jasperdeshields97",
+    "github": "https://github.com/Jasperdeshields97",
     "twitter": "https://twitter.com/jasd"
   },
   "updatedAt": "2026-04-10"

@@ -4,29 +4,29 @@ const DECISIONS = [
   {
     decision: "North has no backend. Zero servers.",
     reasoning:
-      "Every competitor stores your most sensitive behavioral data in a database. Quittr proved what happens when that database gets breached. The technically correct answer — not just the marketable one — was local-only storage with MMKV. No auth system to attack, no API keys to rotate, no GDPR surface area. The privacy story is the architecture.",
-    tradeoff: "Can't do push notifications, social features, or cross-device sync. Made that call consciously.",
+      "Every competitor stores your most sensitive behavioral data in a database. Quittr proved what happens when that database gets breached. The technically correct answer — not just the marketable one — was local-only storage with MMKV. No auth system to attack, no API keys to rotate, no GDPR surface area. The privacy story is the architecture. Instrumentation: spec'd 12 funnel events before Day 1 of dev — onboarding_started, onboarding_completed, paywall_viewed, paywall_converted, urge_logged, streak_milestone_reached — all fired client-side with no PII.",
+    tradeoff: "Can't do push notifications, social features, or cross-device sync. Made that call consciously — each of those trade-offs is documented in the kill list.",
     tags: ["Architecture", "Security", "iOS"],
   },
   {
     decision: "Social automation via Playwright, not APIs.",
     reasoning:
-      "Every social API either costs $100+/month, has rate limits that kill organic growth, or gets deprecated. Playwright against a persisted Chrome profile with real cookies costs $0 and behaves like a human. Built persistent Chromium contexts, extracted Chrome cookies for Twitter, built Reddit with cookie auth. Same results, no vendor dependency.",
+      "Every social API either costs $100+/month, has rate limits that kill organic growth, or gets deprecated. Playwright against a persisted Chrome profile with real cookies costs $0 and behaves like a human. Built persistent Chromium contexts, extracted Chrome cookies for Twitter, built Reddit with cookie auth. Instrumented UTM parameters on every post so affiliate CTR is attributable to specific platforms and post types — not just 'social'.",
     tradeoff: "Brittle to DOM changes. Solved with robust selectors and session monitoring.",
     tags: ["Infrastructure", "Automation", "Cost optimization"],
   },
   {
     decision: "Agent infrastructure over manual workflows.",
     reasoning:
-      "I run 5 projects in parallel. The only way that works is if the operational layer — social posting, morning briefs, content generation, portfolio updates — runs without me in the loop. Built on n8n (1,396 nodes) with Claude as the reasoning layer. Every workflow is designed with my own removal as the exit condition.",
+      "I run 5 projects in parallel. The only way that works is if the operational layer — social posting, morning briefs, content generation, portfolio updates — runs without me in the loop. Built on n8n (1,396 nodes) with Claude as the reasoning layer. Every workflow has an explicit SLA: if a cron fails twice consecutively, Telegram alert fires. Designed for observability first — if I can't see what's running, it doesn't count as autonomous.",
     tradeoff: "Higher upfront build cost. Pays back on every subsequent project I add.",
     tags: ["Systems design", "AI", "n8n"],
   },
   {
     decision: "RevenueCat over Stripe for North's paywall.",
     reasoning:
-      "Stripe handles payments. RevenueCat handles subscriptions — receipt validation, entitlement management, cancellation flows, retention offers, and cross-platform state. For a solo iOS app, building that on raw Stripe is months of work and ongoing maintenance. RevenueCat abstracts it for 1% of revenue. Easy math.",
-    tradeoff: "Platform fee. Accepted — it buys time to focus on acquisition instead of infra.",
+      "Stripe handles payments. RevenueCat handles subscriptions — receipt validation, entitlement management, cancellation flows, retention offers, and cross-platform state. For a solo iOS app, building that on raw Stripe is months of work and ongoing maintenance. RevenueCat abstracts it for 1% of revenue and exposes a cohort dashboard I can use to measure LTV by acquisition channel without building it.",
+    tradeoff: "Platform fee. Accepted — it buys time to focus on the leading indicator that actually matters: D7 check-in rate.",
     tags: ["Monetization", "iOS", "Build vs buy"],
   },
 ];

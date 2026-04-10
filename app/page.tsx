@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Principles from "./components/Principles";
 import TechnicalDepth from "./components/TechnicalDepth";
+import Kills from "./components/Kills";
+import MetricHierarchy from "./components/MetricHierarchy";
 import Timeline from "./components/Timeline";
 import WorkWithMe from "./components/WorkWithMe";
 import Footer from "./components/Footer";
@@ -26,6 +28,8 @@ export default function Home() {
       <Projects projects={projects} />
       <Principles principles={principles} />
       <TechnicalDepth />
+      <Kills />
+      <MetricHierarchy />
       <Timeline entries={timeline} />
       <WorkWithMe about={about} />
       <Footer about={about} />

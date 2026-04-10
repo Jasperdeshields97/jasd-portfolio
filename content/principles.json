@@ -2,21 +2,26 @@
   {
     "number": "01",
     "title": "Research → conviction → spec → build.",
-    "description": "I never start with code. I start with the problem, validate the insight, write a full spec, then execute with conviction. The spec isn't a formality — it's how I compress months of wrong turns into hours of right ones."
+    "description": "I never start with code. I start with structured discovery — JTBD framing, talking to users, mapping the competitive landscape. Conviction comes from evidence. The spec is the artifact that proves I understand the problem before I touch the solution. By the time I write code, the hard decisions are already made."
   },
   {
     "number": "02",
-    "title": "Build yourself out of it.",
-    "description": "Every system I design, I design my own removal into. Autonomous infrastructure isn't a nice-to-have — it's the exit condition. If it still needs me to run, it's not done."
+    "title": "Define the North Star before you define the roadmap.",
+    "description": "A roadmap without a North Star metric is just a to-do list. I define the single metric that captures long-run product health, the leading indicators that predict it, and instrument the funnel to measure it before launch — not after. Metrics-informed, not metrics-driven."
   },
   {
     "number": "03",
-    "title": "Ship in days, not sprints.",
-    "description": "North went from `npx create-expo-app` to App Store submission in 7 days. AI systems handle the scaffolding. I handle the judgment. Speed is a design choice."
+    "title": "Build yourself out of it.",
+    "description": "Every system I design, I design my own removal into. Autonomous infrastructure isn't a nice-to-have — it's the exit condition. If it still needs me to run, it's not done. The agent stack running this portfolio, my social automation, and my morning brief all operate without a single daily input from me."
   },
   {
     "number": "04",
-    "title": "Products that people actually pay for.",
-    "description": "I think in users, not features. Every product decision runs through a filter: does this get someone to pay, stay, or refer? If not, it doesn't ship."
+    "title": "Ship in days, not sprints.",
+    "description": "North went from npx create-expo-app to App Store submission in 7 days. AI systems handle scaffolding; I handle product judgment. Speed is a design choice — enabled by clear specs, decisive trade-offs, and an operating system that removes friction from execution."
+  },
+  {
+    "number": "05",
+    "title": "What I kill matters as much as what I ship.",
+    "description": "The fastest way to slow a product down is to ship everything. Every feature not built is scope that doesn't need to be maintained, debugged, or explained to users. I make explicit kill decisions and document them. The discipline of the kill list is what keeps the product sharp."
   }
 ]
